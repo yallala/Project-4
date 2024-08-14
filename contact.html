@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Meta information for character encoding, description, and viewport settings -->
+  <meta charset="utf-8">
+  <meta name="description" content="I'm Mike, a freelance web designer in Atlanta. Hire me to build your website and enhance your online presence.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  
+  <!-- Preloading CSS stylesheets for better performance -->
+  <link rel="preload" href="./css/bootstrap.min.css" as="style">
+  <link rel="preload" href="style.min.css" as="style">
+  <link rel="preload" href="./css/font.min.css" as="style" crossorigin="anonymous">
+  <link rel="preload" href="./css/line.min.css" as="style" crossorigin="anonymous">
+  
+  <!-- Linking CSS stylesheets for styling and font -->
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.min.css">
+  <link rel="stylesheet" href="./css/font.min.css" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/line.min.css" crossorigin="anonymous">
+  
+  <!-- Favicon for the webpage -->
+  <link rel="shortcut icon" type="image/png" href="favicon.jpg">
+  
+  <!-- Title of the webpage -->
+  <title>Contact Your Atlanta Freelance Web Designer | GoMike Designs</title>
+</head>
+
+<body>
+  <!-- Main container for the page content -->
+  <main class="page-container">
+
+    <!-- Navigation bar section -->
+    <nav class="bloc bgc-white l-bloc ">
+      <div class="bloc-sm">
+        <nav class="navbar row">
+          <div class="navbar-header">
+            <!-- Logo and toggle button for mobile view -->
+            <a class="navbar-brand" href="index.html"><img src="img/atlantawebdesignlogo.webp" alt="go mike designe logo" height="40" width="220" /></a>
+            <button type="button" class="toggle" aria-label="toggle navigation" data-toggle="collapse" data-target=".navbar-1">
+              <span class="fa fa-bars"></span>
+            </button>
+          </div>
+          <div class="collapse navbar-collapse navbar-1">
+            <!-- Navigation links -->
+            <ul class=" nav navbar-nav">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </nav>
+    <!-- End of navigation bar section -->
+
+    <!-- Hero section with background image and introductory text -->
+    <header class="bloc bg-dots-bg bg-repeat bgc-dark-slate-blue d-bloc bloc-bg-texture texture-paper">
+      <div class="container bloc-lg">
+        <div class="row">
+          <div class="col-sm-12">
+            <h1 class="text-center hero-bloc-text tc-white">Let's Talk Web Design!</h1>
+            <p class="text-center mg-lg tc-white tight-width-whitespace">
+              I'm super excited that you want to work together. Please fill in the form below or get in touch so I can learn about your project and we can set up a time to talk websites and share our love for Atlanta.
+            </p>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- End of hero section -->
+
+    <!-- Contact form section -->
+    <div class="bloc bgc-white">
+      <div class="container bloc-lg">
+        <div class="row">
+          <!-- Contact form -->
+          <div class="col-sm-6">
+            <h2 class="title-contact t-margin">Message Us</h2>
+            <form action="includes/form_1.php" method="POST">
+              <div class="form-group">
+                <label for="name"><strong>Name</strong></label>
+                <input id="name" name="name" class="form-control" required />
+              </div>
+              <div class="form-group">
+                <label for="email"><strong>Email</strong></label>
+                <input id="email" name="email" class="form-control" type="email" required />
+              </div>
+              <div class="form-group">
+                <label for="find_me"><strong>How did you find me?</strong></label>
+                <input class="form-control" name="input_504" required id="find_me" />
+              </div>
+              <div class="form-group">
+                <label for="message"><strong>Project Brief:</strong> (Please be as detailed as possible, including your company goals and any improvements you'd like to have over your current website)</label>
+                <textarea id="message" name="message" class="form-control" rows="4" cols="50" required></textarea>
+              </div>
+              <button class="btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">Let's go Mike</button>
+            </form>
+          </div>
+          <!-- Contact information -->
+          <div class="col-sm-6">
+            <h2 class="title-contact">Contact Us</h2>
+            <ul class="list-contact">
+              <li><strong>Email: </strong><a href="mailto:mike@gomikedesigns.com">mike@gomikedesigns.com</a></li>
+              <li><strong>Phone: </strong><a href="tel:+1(404)555-1234">+1 (404) 555-1234</a></li>
+              <li><strong>Address: </strong>123 Peachtree Ave. Atlanta, GA<br><strong>Availability: </strong>9AM-5PM, Mon-Fri</li>
+              <li>Interested to Learn About My Freelance Services? <br>Please visit my <a class="ltc-atomic-tangerine" href="index.html">other page</a>.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End of contact form section -->
+
+    <!-- ScrollToTop Button -->
+    <a class="btn btn-d scrollToTop" onclick="scrollToTarget('1')">
+      <i class="fa fa-chevron-up"></i></a>
+    <!-- End of ScrollToTop Button -->
+
+    <!-- Footer section with social media links -->
+    <footer class="bloc bgc-dark-slate-blue d-bloc">
+      <div class="container bloc-sm">
+        <div class="row">
+          <div class="col-sm-12">
+            <p class="text-center white">
+              GoMike Designs - Web designer living and loving Atlanta.
+            </p>
+            <div class="row row-no-gutters social">
+              <!-- Social media links -->
+              <div class="col-sm-3">
+                <div class="text-center">
+                  <a href="https://www.Twitter.com" target="_blank" rel="noreferrer">
+                    <i class="fa fa-twitter icon-md"></i>
+                    <p class="link-color">Twitter</p>
+                  </a>
+                </div>
+              </div>
+              <div class="col-sm-3">
+                <div class="text-center">
+                  <a href="https://www.facebook.com/" target="_blank" rel="noreferrer">
+                    <i class="fa fa-facebook icon-md"></i>
+                    <p class="link-color">Facebook</p>
+                  </a>
+                </div>
+              </div>
+              <div class="col-sm-3">
+                <div class="text-center">
+                  <a href="https://www.Dribble.com" target="_blank" rel="noreferrer">
+                    <i class="fa fa-dribbble icon-md"></i>
+                    <p class="link-color">Dribble</p>
+                  </a>
+                </div>
+              </div>
+              <div class="col-sm-3">
+                <div class="text-center">
+                  <a href="https://www.Instagram.com" target="_blank" rel="noreferrer">
+                    <i class="fa fa-instagram icon-md"></i>
+                    <p class="link-color">Instagram</p>
+                  </a>
+                </div>
+              </div>
+              <!-- End of social media links -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- End of footer section -->
+
+  </main>
+  <!-- End of main container -->
+  
+  <!-- Including JavaScript files for functionality -->
+  <script defer src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  <script defer src="./js/jquery.touchSwipe.min.js"></script>
+  <script defer src="./js/bootstrap.min.js"></script>
+  <script defer src="./js/blocs.min.js"></script>  
+
+</body>
+
+</html>
