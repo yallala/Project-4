@@ -1,6 +1,6 @@
 
 # Link to the github repository
-https://github.com/yallala/Project-4/
+https://yallala.github.io/Project-4/
 
 ## SEO Results
 
