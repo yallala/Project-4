@@ -2,15 +2,13 @@
 # Link to the github repository
 https://github.com/yallala/Project-4/
 
-# GoMikeDesigns
-*Optimize an Existing Website*
+## SEO Results
 
-[hosted online on GitHub Pages](https://isfiaya.github.io/GoMikeDesigns/)
+### Mobile
+Project-4-GoMikeDesigns-Website/img/Mobile-Before.png
+Project-4-GoMikeDesigns-Website/img/Mobile-After.png
 
-## Screenshot to the score of the report *before my optimization*
-
-![report](/img/before-my-optimization.JPG)
-
-## Screenshot to the score of the report *after my optimization*
-![report](/img/after-my-optimization.JPG)
+### Desktop
+Project-4-GoMikeDesigns-Website/img/Desktop-Before.png
+Project-4-GoMikeDesigns-Website/img/Desktop-After.png
 
