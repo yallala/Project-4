@@ -1,8 +1,6 @@
 
-Link to github 
-
-
-
+# Link to the github repository
+https://github.com/yallala/Project-4/
 
 # GoMikeDesigns
 *Optimize an Existing Website*
@@ -11,10 +9,7 @@ Link to github
 
 ## Screenshot to the score of the report *before my optimization*
 
-
 ![report](/img/before-my-optimization.JPG)
-
-
 
 ## Screenshot to the score of the report *after my optimization*
 ![report](/img/after-my-optimization.JPG)
