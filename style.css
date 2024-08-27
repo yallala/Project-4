@@ -622,6 +622,7 @@ h1 {
     padding-left: 0;
     padding-right: 0;
   }
+
 }
 @media (max-width: 767px) {
   .social {
@@ -629,6 +630,8 @@ h1 {
     justify-content: center;
     align-items: center;
   }
+
+
 }
 .link-color {
   color: #e6e6e6 !important;
@@ -749,3 +752,4 @@ blockquote {
 cite {
   color: #000;
 }
+
